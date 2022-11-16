@@ -16,6 +16,8 @@ public class LivrosResources {
 	@Autowired
 	private LivrosRepository livrosRepository;
 	
+	// lista
+	
 	@RequestMapping(value = "/livros", method = RequestMethod.GET)
 	public List<Livro> listar() {
 		
